@@ -7,7 +7,8 @@ exports.up = function(knex) {
         table.increments("id").primary();
         table.integer('sender_id').references('id').inTable('users')
         table.integer('reciver_id').references('id').inTable('users')
-        table.string('text')
+        table.string('text').notNullable()
+        table.dateTime("datetime").notNullable()
     })
 };
 
