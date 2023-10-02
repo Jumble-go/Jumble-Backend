@@ -6,10 +6,12 @@ const userRouter = require('./routes/userRouter.js')
 // console.log(userRouter)
 
 
-app.use(express.json())
-app.use(cors())
+app.use(express.json());
+app.use(cors());
+console.log("hello")
 
-app.use(userRouter)
+
+app.use(userRouter);
 
 
 
