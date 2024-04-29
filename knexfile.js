@@ -10,7 +10,7 @@ module.exports = {
     connection: {
       database: 'Jumble',
       user:     'crislp',
-      password: 'kyloren1234'
+      password: ''
     }
   },
   production: {
