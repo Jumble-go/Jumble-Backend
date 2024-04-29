@@ -4,7 +4,7 @@ const connectionLocal = {
   user: 'crislp',
   host: 'localhost',
   database: 'Jumble',
-  password: 'kyloren1234',
+  password: '',
   port: 5432,
 }
 
