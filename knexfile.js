@@ -9,7 +9,7 @@ module.exports = {
     client: 'postgresql',
     connection: {
       database: 'Jumble',
-      user:     'crislp',
+      user:     '',
       password: ''
     }
   },
