@@ -1,7 +1,7 @@
 const { Pool } = require('pg')
 
 const connectionLocal = {
-  user: 'crislp',
+  user: '',
   host: 'localhost',
   database: 'Jumble',
   password: '',
